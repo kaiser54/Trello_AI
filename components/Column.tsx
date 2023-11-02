@@ -2,7 +2,7 @@
 import { Draggable, Droppable } from "react-beautiful-dnd"
 
 type Props = {
-    id: string,
+    id: TypedColumn,
     todos: Todo[],
     index: number
 }
